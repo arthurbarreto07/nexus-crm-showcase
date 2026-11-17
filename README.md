@@ -1,20 +1,19 @@
 # Nexus CRM — CRM de prospecção com IA
 
-CRM que construí para prospectar meus próprios clientes de criação de sites. Ele encontra negócios
-locais sem site, qualifica cada lead, escreve a abordagem com IA, envia pelo WhatsApp em ritmo
-humano e organiza a conversa até o contrato fechado.
+CRM de prospecção que desenvolvi. Ele encontra negócios locais sem site, qualifica cada lead,
+escreve a abordagem com IA, envia pelo WhatsApp em ritmo humano e organiza a conversa até o
+contrato.
 
-> Projeto pessoal, em uso real. **Código-fonte privado**: esta página mostra o que ele faz.
-> As telas usam dados fictícios. Acesso ao código para avaliação técnica sob solicitação.
+> **Código-fonte privado**: esta página mostra o que ele faz. As telas usam dados fictícios. Acesso ao código para avaliação técnica sob solicitação.
 
 ![Caixa de entrada e painel do dia](docs/prints/01-caixa-e-painel.png)
 
 ## O problema
 
-Prospectar sozinho come o dia: montar lista copiando do mapa, descobrir quem não tem site, escrever
+Prospectar à mão come o dia: montar lista copiando do mapa, descobrir quem não tem site, escrever
 mensagem uma a uma e lembrar quem respondeu. O Nexus junta tudo em um fluxo:
-**achar → qualificar → abordar → conversar → fechar**, com a IA no trabalho repetitivo e eu
-aprovando o que sai.
+**achar → qualificar → abordar → conversar → fechar**, com a IA no trabalho repetitivo e revisão
+humana antes de enviar.
 
 ## Funcionalidades
 
@@ -42,7 +41,7 @@ aprovando o que sai.
 
 ```mermaid
 flowchart LR
-  U[Eu no navegador] --> R[React + Vite<br/>Vercel]
+  U[Usuário no navegador] --> R[React + Vite<br/>Vercel]
   R --> SB[(Supabase<br/>Postgres + Auth + RLS)]
   R --> OSM[api/osm<br/>OpenStreetMap]
   R --> G[Groq<br/>IA]
