@@ -1,10 +1,13 @@
 # Nexus CRM — CRM de prospecção com IA
 
-CRM de prospecção que desenvolvi. Ele encontra negócios locais sem site, qualifica cada lead,
+CRM de prospecção que conduzi. Ele encontra negócios locais sem site, qualifica cada lead,
 escreve a abordagem com IA, envia pelo WhatsApp em ritmo humano e organiza a conversa até o
 contrato.
 
 > **Código-fonte privado**: esta página mostra o que ele faz. As telas usam dados fictícios. Acesso ao código para avaliação técnica sob solicitação.
+>
+> **Como foi feito:** conduzi o projeto (ideia, regras de negócio, validação e publicação) com apoio de
+> ferramentas de IA (Claude Code) para escrever o código.
 
 ![Caixa de entrada e painel do dia](docs/prints/01-caixa-e-painel.png)
 
